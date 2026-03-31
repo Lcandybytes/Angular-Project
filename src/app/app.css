@@ -30,20 +30,22 @@ h1 {
     margin-bottom: 50px;
     text-align: left;
     font-size: 30px;
+    text-decoration: underline;
 }
 
 .infoColumn .properties p {
     font-size: 18px;
     text-align: left;
+    text-decoration: none;
 }
 
 .mapColumn svg path {
-    fill: rgba(158, 162, 171, 0.804);
+    fill: rgba(131, 131, 131, 0.857);
     stroke:black;
 }
 
 .mapColumn svg path:hover {
-    fill: rgb(13, 90, 197);
+    fill: rgb(28, 68, 123);
 }
 
 body {
