@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.bothColumns {
+    display: flex;
+    gap: 70px;
+
+}
+
+.mapColumn, .infoColumn {
+    padding: 20px;
+}
+
+.mapColumn {
+    width: 60%;
+}
+
+.mapColumn p {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.infoColumn p {
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.infoColumn .properties p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.mapColumn svg path {
+    fill: rgba(158, 162, 171, 0.804);
+    stroke:black;
+}
+
+.mapColumn svg path:hover {
+    fill: rgb(13, 90, 197);
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
