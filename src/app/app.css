@@ -40,12 +40,12 @@ h1 {
 }
 
 .mapColumn svg path {
-    fill: rgba(131, 131, 131, 0.857);
+    fill: rgba(131, 131, 131, 0.665);
     stroke:black;
 }
 
 .mapColumn svg path:hover {
-    fill: rgb(27, 87, 172);
+    fill: rgb(20, 75, 153);
 }
 
 body {
