@@ -8,6 +8,8 @@ h1 {
 .bothColumns {
     display: flex;
     gap: 70px;
+    justify-content: center;
+    align-items: flex-start;
 
 }
 
