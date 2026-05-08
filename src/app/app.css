@@ -52,3 +52,21 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .bothColumns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapColumn {
+            width: 95%;
+        }
+
+    svg {
+        width: 100%;
+        height: auto;
+    }
+}
